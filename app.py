@@ -63,6 +63,17 @@ def home():
                 border: 1px solid #404040;
                 border-radius: 12px;
             }}
+            .github-button {{
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #f97316;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.2s;
+            }}
       h1, h2 {{
                 color: #f97316;
             }}
@@ -96,7 +107,12 @@ def home():
                 I used SQLite for database, because i was already familiar with it. it stores total time visted in
                 site in visitors.db
             </p>
-
+            <a href="https://github.com/Runemies/LinuxAdminstration"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="github-button">
+                GitHub 
+            </a>
         </div>
     </body>
     </html>
